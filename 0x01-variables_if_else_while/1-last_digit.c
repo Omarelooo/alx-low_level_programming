@@ -1,13 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* 
- * mmain 
+/**
+ * main - entry point 
  *
- * function
+ * Description: a
  *
- * return 0 
+ * Return: 0 (success)
  *
 */
 
