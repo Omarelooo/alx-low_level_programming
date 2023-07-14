@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - entry point
+/*
+ * main - entry point
  *
  * Description: posite or neagative
  *
- * return: 0 (success ) */
+ * return: 0 (success)
+*/
 
 /* betty style doc for function main goes there */
 int main(void)
