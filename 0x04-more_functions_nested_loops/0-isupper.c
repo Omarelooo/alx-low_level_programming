@@ -1,18 +1,12 @@
-#include <stdio.h>
-#include "main.h"
-
-/* get an input from user
- *
- * call the function 
- *
- * return 0 : (Successful) */
-
 int main (void)
 {
-	int a;
+        char c;
 
-	getchar('%d', a);
-	_isupper(int a);
+        c = 'A';
+        printf("%c: %d\n", c, _isupper(c));
+        c = 'a';
+        printf("%c: %d\n", c, _isupper(c));
 
-	return 0;
+        return 0;
 }
+
