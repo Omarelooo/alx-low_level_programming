@@ -7,6 +7,11 @@
  * return (0): Succesful
  */
 
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+
 void rev_string(char *s)
 {
 	int i, x, n;
