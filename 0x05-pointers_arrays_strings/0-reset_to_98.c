@@ -1,4 +1,4 @@
-#include "header.h"
+#include "main.h"
 
 /**
  * reset_to_98 function to reset the value to 98
