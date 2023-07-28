@@ -10,7 +10,7 @@ char *_strcat(char *dest, char *src)
 {
 	int c, c2;
 	c = 0;
-        // size of des
+	// size of dest
 	while (dest[c])
 		c++;
 	// after the null value : put the char in the src arr
@@ -18,4 +18,3 @@ char *_strcat(char *dest, char *src)
 		dest[c++] = src[c2];
 	return (dest);
 }
-
