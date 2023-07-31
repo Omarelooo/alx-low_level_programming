@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /* function _memset : change number of chracter with 1 charatcer */
 
