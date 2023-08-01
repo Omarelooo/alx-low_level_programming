@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * _srechr - fills memory with a constant byte
