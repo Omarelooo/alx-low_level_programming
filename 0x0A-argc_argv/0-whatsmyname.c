@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints prototype name 
+ * @main - prints prototype name 
  * @argc : int 
  * @argv : list
  * Return : 0
