@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - prints numbers
- * @argc : int 
- * @argv : pointer 
- * Retuurn : 0
+ * main - it all starts here
+ * @argc: int
+ * @argv: pointer
+ * Return: Always 0.
  */
 
 int main(int argc, char *argv)
