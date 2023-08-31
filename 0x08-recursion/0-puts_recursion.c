@@ -1,12 +1,19 @@
 #include "main.h"
 
+/**
+ * _puts_recursion - function to print letters
+ *
+ * @s: pointer of string
+ * Return: void
+ */
+
 void _puts_recursion(char *s)
 {
-	char c;
-	
-	c = s[0];
-	if ( c == '\0' )
-		break;
-	printf("%d",c);
-	c++;
+	if ( *s == '\0' )
+		_putchar('\n');
+	else
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
 }
