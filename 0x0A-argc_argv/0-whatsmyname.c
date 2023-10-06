@@ -1,22 +1,16 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
-<<<<<<< HEAD
- * @main - prints prototype name 
- * @argc : int 
- * @argv : list
- * Return : 0
-=======
- * main - prints prototype name, followed by a new line
- * @argc: int
- * @argv: list
- * Return: 0
->>>>>>> eec0c887c8a9b713527b853067874152a6ea4189
+ * main - prints the name of the program
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: Always 0 (Success)
  */
-
-int main(int argc, char const *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	(void)argc;
-	printf("%s\n", argv[0]);
+	printf("%s\n", *argv);
+
 	return (0);
 }
