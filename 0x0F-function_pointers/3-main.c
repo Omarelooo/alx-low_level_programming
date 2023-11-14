@@ -1,6 +1,4 @@
-#include <stdlio.h>
 #include "function_pointers.h"
-#include <stdlib.h>
 
 /** main - check the code
  *  *
